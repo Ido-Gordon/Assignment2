@@ -1,4 +1,63 @@
-/* בסיס */
+
+@media (max-width: 768px) {
+
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2, h3 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+
+ 
+  p {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+
+  
+  #music {
+    width: 60px;
+    margin-top: 10px;
+  }
+
+ 
+  .star {
+    width: 30px;
+    top: 10px;
+  }
+
+ 
+  #drum_and_guiter {
+    width: 180px;
+    margin-top: 20px;
+  }
+
+ 
+  .footer-link {
+    display: block;
+    margin: 10px 0;
+  }
+
+  
+  .middle-container {
+    padding: 40px 10px;
+  }
+
+  .top-container {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  
+  .icon {
+    width: 30px;
+  }
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +71,6 @@
     height: 100%;
   }
   
-  /* עיצוב כותרות */
   h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
@@ -36,7 +94,7 @@
     color: #00c6ff;
   }
   
-  /* עיצוב פסקאות */
+  
   p {
     font-size: 1.2rem;
     line-height: 1.8;
@@ -53,7 +111,7 @@
     transition: all 0.3s ease;
   }
   
-  /* עיצוב קישורים */
+
   a {
     color: #00c6ff;
     text-decoration: none;
@@ -69,7 +127,7 @@
     text-shadow: 0 0 8px #00c6ff;
   }
   
-  /* קישורים עם קו תנועה */
+  
   a::after {
     content: '';
     position: absolute;
@@ -85,7 +143,7 @@
     width: 100%;
   }
   
-  /* החלק העליון */
+  
   .top-container {
     background: linear-gradient(#f58a07, #ffbb33);
     padding-top: 50px;
@@ -94,13 +152,13 @@
     overflow: hidden;
   }
   
-  /* טקסט כותרת עליון */
+  
   .title-text {
     font-style: italic;
     font-family: 'Verdana', 'Tahoma', sans-serif;
   }
   
-  /* "a musician" */
+ 
   .musician {
     font-family: cursive;
     font-size: 1.2rem;
@@ -108,7 +166,7 @@
     margin-top: 10px;
   }
   
-  /* תמונה ליד כותרת */
+  
   #music {
     width: 90px;
     margin: 20px auto;
@@ -116,7 +174,7 @@
     animation: fadeIn 2s ease forwards;
   }
   
-  /* עיצוב הכוכבים */
+  
   .star {
     position: absolute;
     width: 50px;
@@ -132,13 +190,13 @@
     right: 20px;
   }
   
-  /* החלק האמצעי */
+ 
   .middle-container {
     background: linear-gradient(#084887, #123456);
     padding: 80px 20px;
   }
   
-  /* תמונת תופים וגיטרה */
+  
   #drum_and_guiter {
     width: 250px;
     margin-top: 30px;
@@ -151,7 +209,7 @@
     transform: scale(1.05) rotate(2deg);
   }
   
-  /* קו מפריד */
+ 
   hr {
     border: dotted #ecf0e8 6px;
     border-bottom: none;
@@ -159,7 +217,7 @@
     margin: 50px auto;
   }
   
-  /* החלק התחתון */
+  
   .bottom-container {
     background: #f7f5fb;
     padding: 30px 0;
@@ -170,7 +228,7 @@
     font-size: 1.1rem;
   }
   
-  /* עיצוב אייקונים */
+  
   .icon {
     width: 40px;
     vertical-align: middle;
@@ -185,7 +243,7 @@
     animation: moveSideways 1.5s infinite alternate;
   }
   
-  /* אנימציות */
+ 
   @keyframes floating {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
@@ -202,7 +260,7 @@
           transform: translateX(0);
         }
         100% {
-          transform: translateX(50px); /* זז 50 פיקסלים ימינה */
+          transform: translateX(50px); 
         }
 
       }  
